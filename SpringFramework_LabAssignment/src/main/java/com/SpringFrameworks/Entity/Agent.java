@@ -1,12 +1,11 @@
 package com.SpringFrameworks.Entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-@Entity
+
+
 public class Agent 
 {
 	//declaring instance variable
-	@Id
+	
 	private int Agent_id;
 	private String Agent_name;
 	private int Agent_commision;
