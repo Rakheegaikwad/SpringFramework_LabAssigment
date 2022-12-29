@@ -18,7 +18,7 @@ public class AgentDao
 	//creating createTable method
 	public int createTable()
 	{
-		String query="create table Agent(Agent_id int,Agent_name varchar(25),Agent_commision varchar(20))";
+		String query="create table Agent(Agent_id int primary key,Agent_name varchar(25),Agent_commision int)";
 		return jdbcTemplate.update(query);
 	}
 	//creating saveAgent for insert values in Agent Table
